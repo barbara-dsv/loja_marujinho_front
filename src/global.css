@@ -1,0 +1,47 @@
+:root {
+
+    --cor-borda-aviso: #EF6751;
+    --cor-amarelo-principal: #FFD573;
+    --cor-separacao: #F7B1A5;
+    --cor-letra-botao-finalizar: #775300;
+    --cor-cinza: #8C8D8BFF;
+    --cor-fundo: #FFFFFF;
+    --cor-icone-voltar: #E8A61C;
+    --cor-botao-x-carrinho: #DE3B40;
+    --cor-fundo-icone-quant-pedido: #F7F7F7;
+    --cor-icone-campo-carrinho: #E9638D;
+    --cor-borda-caixa-texto: #EBEBEA;
+}
+
+body {
+    background-color: var(--color-amarelo);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    all: unset;
+    cursor: pointer;
+}
