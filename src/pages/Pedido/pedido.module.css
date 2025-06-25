@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.header_pedido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_icone {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+}
+
+h1 {
+
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #242524FF;
+}
+
+
+.capa {
+    display: flex;
+    gap: 0.813rem;
+    flex-direction: column;
+    padding: 0.313rem;
+}
+
+.img_capa {
+    width: 100%;
+    height: 17.125rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 0.5rem;
+
+}
+
+
+.aviso {
+    display: flex;
+    gap: 0.313rem;
+    padding: 0.563rem;
+    border: 0.125rem solid var(--cor-borda-aviso);
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 9px #171a1f1C, 0px 0px 2px #171a1f1F;
+}
+
+
+.aviso_importante {
+    font-size: 0.625rem;
+    color: var(--cor-amarelo-principal);
+}
+
+.aviso_entregas {
+    font-size: 0.625rem;
+    color: var(--cor-cinza);
+}
+
+.carrinho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.313rem;
+}
+
+.qtd_pedido {
+    display: flex;
+    align-items: center;
+    gap: 0.188rem;
+}
+
+.total_pedido {
+    display: flex;
+    align-items: center;
+    gap: 0.188rem;
+}
+
+.itens,
+.total {
+    font-size: 0.625rem;
+}
+
+.btn_finalizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 0.625rem;
+    padding: 0.5rem;
+
+    color: #775300FF;
+    background: #FFD573FF;
+    opacity: 1;
+    border: none;
+    border-radius: 0.375rem;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1F;
+    gap: 0.188rem;
+}
