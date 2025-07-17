@@ -1,6 +1,5 @@
 import { ArrowRightIcon, ChatCircleIcon, MapPinIcon, ShoppingCartIcon } from '@phosphor-icons/react';
 import styles from './pedido.module.css';
-import capa from '../../assets/capa_site.png'
 export const Pedido: React.FC = () => {
 
     return (
@@ -16,7 +15,7 @@ export const Pedido: React.FC = () => {
             <hr />
 
             <div className={styles.capa}>
-                <img src={capa} alt="capa do site" className={styles.img_capa} />
+                <img src="https://res.cloudinary.com/doymbnklx/image/upload/v1752708290/marujinho/xrikkwj08sgwiannuwxa.png" alt="capa do site" className={styles.img_capa} />
                 <div className={styles.aviso}>
                     <MapPinIcon size={18} />
                     <span>
