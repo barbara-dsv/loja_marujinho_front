@@ -1,6 +1,6 @@
 import styles from './pedido.module.css';
+import { Slider } from '../../components/Slider';
 export const Pedido: React.FC = () => {
-
     return (
         <div className={styles.conteiner}>
             <header className={styles.header_pedido}>
@@ -35,6 +35,10 @@ export const Pedido: React.FC = () => {
                     </button>
                 </div>
             </section>
+            <hr />
+            <main className={styles.sliderSabores}>
+                <Slider />
+            </main>
         </div>
     )
 }
