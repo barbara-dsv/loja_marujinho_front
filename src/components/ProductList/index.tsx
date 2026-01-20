@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import api from "../../services/api";
 import type { ISabor } from "../../interfaces/saboresInterface";
-import styles from './slider.module.css'
+import styles from './productList.module.css'
 
-export const Slider: React.FC = () => {
+export const ProductList: React.FC = () => {
     const [sabores, setSabores] = useState<ISabor[]>([]);
 
     useEffect(() => {
